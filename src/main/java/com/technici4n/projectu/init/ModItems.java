@@ -44,6 +44,7 @@ public class ModItems
     public static void registerModItems()
     {
         registerAndOreDictItem(dustIron);
+        registerAndOreDictItem(dustGold);
         registerAndOreDictItem(dustCopper);
         registerAndOreDictItem(dustTin);
         registerAndOreDictItem(dustBronze);
