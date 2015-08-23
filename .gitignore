@@ -1,0 +1,16 @@
+#exclude all
+/*
+
+#include important files/folders
+!gradle/
+!gradlew
+!gradlew.bat
+!build.gradle
+!gradle.properties
+
+!README.md
+!LICENSE
+
+!src
+
+!.gitignore
