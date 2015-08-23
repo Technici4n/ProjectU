@@ -1,4 +1,5 @@
 item.projectu:dustIron.name=Universal Iron dust
+item.projectu:dustGold.name=Universal Gold dust
 item.projectu:dustCopper.name=Universal Copper dust
 item.projectu:dustTin.name=Universal Tin dust
 item.projectu:dustBronze.name=Universal Bronze dust
@@ -12,3 +13,5 @@ item.projectu:ingotBronze.name=Universal Bronze ingot
 item.projectu:ingotSilver.name=Universal Silver ingot
 item.projectu:ingotLead.name=Universal Lead ingot
 item.projectu:ingotSteel.name=Universal Steel ingot
+
+item.projectu:staffInertOne.name=Staff of the Inert One

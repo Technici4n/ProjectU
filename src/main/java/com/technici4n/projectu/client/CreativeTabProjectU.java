@@ -5,6 +5,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 
+// The mod's creative tab
 public class CreativeTabProjectU
 {
     public static final CreativeTabs TAB_PROJECTU = new CreativeTabs(Reference.MOD_ID)

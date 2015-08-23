@@ -10,7 +10,7 @@ import net.minecraft.item.ItemStack;
 
 import java.lang.Override;
 
-public class ItemBaseProjectU extends Item
+public abstract class ItemBaseProjectU extends Item
 {
     public ItemBaseProjectU()
     {
@@ -19,6 +19,7 @@ public class ItemBaseProjectU extends Item
         setCreativeTab(CreativeTabProjectU.TAB_PROJECTU);
     }
 
+    // The icon name is based on the unlocalized name
     @Override
     @SideOnly(Side.CLIENT)
     public void registerIcons(IIconRegister iIR)

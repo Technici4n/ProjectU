@@ -1,6 +1,6 @@
 package com.technici4n.projectu.item;
 
-public class ItemUniversalItem extends  ItemBaseProjectU
+public class ItemUniversalItem extends ItemBaseProjectU
 {
     public ItemUniversalItem(String unlocName)
     {
