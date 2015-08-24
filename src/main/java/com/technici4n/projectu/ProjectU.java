@@ -1,5 +1,6 @@
 package com.technici4n.projectu;
 
+import com.technici4n.projectu.handler.IMCHandlerProjectU;
 import com.technici4n.projectu.handler.OreDictHandler;
 import com.technici4n.projectu.handler.ServerTickEventHandler;
 import com.technici4n.projectu.init.ModItems;
@@ -9,6 +10,7 @@ import com.technici4n.projectu.utils.LogProjectU;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLInterModComms;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
@@ -19,7 +21,12 @@ public class ProjectU
     @Mod.Instance(value = Reference.MOD_ID)
     public static ProjectU INSTANCE;
 
-
+    // IMC
+    @Mod.EventHandler
+    public void onIMC(FMLInterModComms.IMCEvent event)
+    {
+        IMCHandlerProjectU.onIMC(event);
+    }
     // Entry points
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)

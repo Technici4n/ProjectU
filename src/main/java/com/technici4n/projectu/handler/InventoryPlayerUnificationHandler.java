@@ -10,8 +10,8 @@ import net.minecraft.world.WorldServer;
 public class InventoryPlayerUnificationHandler
 {
 
-    public static final int PLAYER_HOTBAR_SIZE = 9;
     // If one day Mojang changes the number of slots in players' inventory...
+    public static final int PLAYER_HOTBAR_SIZE = 9;
     public static final int PLAYER_MAININVENTORY_SIZE = PLAYER_HOTBAR_SIZE + 27;
 
     // Unify all the players' inventory

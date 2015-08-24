@@ -14,6 +14,7 @@ public class ModItems
 {
     public static final ItemUniversalItem dustIron = new ItemUniversalItem(Names.Items.DUST_IRON);
     public static final ItemUniversalItem dustGold = new ItemUniversalItem(Names.Items.DUST_GOLD);
+    public static final ItemUniversalItem dustCoal = new ItemUniversalItem(Names.Items.DUST_COAL);
     public static final ItemUniversalItem dustCopper = new ItemUniversalItem(Names.Items.DUST_COPPER);
     public static final ItemUniversalItem dustTin = new ItemUniversalItem(Names.Items.DUST_TIN);
     public static final ItemUniversalItem dustBronze = new ItemUniversalItem(Names.Items.DUST_BRONZE);
@@ -45,6 +46,7 @@ public class ModItems
     {
         registerAndOreDictItem(dustIron);
         registerAndOreDictItem(dustGold);
+        registerAndOreDictItem(dustCoal);
         registerAndOreDictItem(dustCopper);
         registerAndOreDictItem(dustTin);
         registerAndOreDictItem(dustBronze);

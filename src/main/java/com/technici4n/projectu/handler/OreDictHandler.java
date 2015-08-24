@@ -60,8 +60,8 @@ public class OreDictHandler
         conversionTable.put(replacedBy, is);
     }
 
-    // Add blacklist entry TODO: Add entries with IMC
-    public void addBlacklisted(ItemStack is)
+    // Add blacklist entry
+    public static void addBlacklisted(ItemStack is)
     {
         is.stackSize = 1;
         blacklist.add(is);
