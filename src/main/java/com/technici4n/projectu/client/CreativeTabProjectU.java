@@ -1,5 +1,6 @@
 package com.technici4n.projectu.client;
 
+import com.technici4n.projectu.init.ModItems;
 import com.technici4n.projectu.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
@@ -13,11 +14,11 @@ public class CreativeTabProjectU
         @Override
         public Item getTabIconItem()
         {
-            return Item.getItemFromBlock(Blocks.wool);
+            return ModItems.staffInertOne;
         }
 
         @Override
-        public String getTranslatedTabLabel()
+        public String getTabLabel()
         {
             return "ProjectU";
         }
